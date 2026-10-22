@@ -1,6 +1,10 @@
 
 import './App.css'
 import ganeshPhoto from './assets/ganesh.jpeg'
+import signLanguageImage from './assets/sign-language.jpg'
+import nearestHospitalImage from './assets/nearest-hospital.jpg'
+import hateSpeechImage from './assets/hate-speech.jpg'
+import bakeryOrderImage from './assets/bakery-order.jpg'
 function App() {
   return (
     <main className="portfolio">
@@ -223,7 +227,7 @@ function App() {
   <article className="project-card">
     <div className="project-image sign-language-image">
       <img
-      src="/src/assets/sign-language.jpg"
+      src={signLanguageImage}
       alt="Illustration of sign language recognition using hand landmarks"
       loading="lazy"
       />
@@ -261,7 +265,7 @@ function App() {
   <div className="project-image">
     
   <img
-    src="/src/assets/nearest-hospital.jpg"
+    src={nearestHospitalImage}
     alt="Illustration of a hospital locator with a map pin"
     loading="lazy"
   />
@@ -299,7 +303,7 @@ function App() {
   <div className="project-image">
     
     <img
-      src="/src/assets/hate-speech.jpg"
+      src={hateSpeechImage}
       alt="Illustration of a hate speech detection and text moderation system"
       loading="lazy"
     />
@@ -337,7 +341,7 @@ function App() {
   <div className="project-image">
     
 <img
-  src="/src/assets/bakery-order.jpg"
+  src={bakeryOrderImage}
   alt="Illustration of a bakery ordering website on a mobile device"
   loading="lazy"
 />

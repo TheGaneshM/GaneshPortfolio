@@ -1138,7 +1138,7 @@ h1 {
 /* Fix profile photo positioning on mobile */
 @media (max-width: 560px) {
   .profile-photo img {
-    object-position: center 70%;
+    object-position: center 50%;
   }
 }
 
